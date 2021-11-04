@@ -1,0 +1,2607 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.contenido {
+  height: 100vh;
+  margin-bottom: 50px;
+  margin-left: 300px;
+}
+
+.textodeindex {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: whitesmoke;
+  margin-left: 70px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  padding-top: 40px;
+}
+
+/**        INDEX          */
+.fondo {
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(transparent)), url(imagenes/fondobuzo2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(imagenes/fondobuzo2.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.fonditonuevo {
+  width: 100%;
+  background-image: url(../imagenes/fondobuzo2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 300px;
+  background-color: transparent;
+}
+
+/** PRIMERA CAJA */
+.caja1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  height: auto;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.PrimerBloque1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  width: 50%;
+  margin-left: 20px;
+  height: auto;
+}
+
+.titulodebloque {
+  font-weight: 800;
+  font-size: 50px;
+  color: whitesmoke;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.Carrouselbuzos {
+  max-height: 500px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-right: 120px;
+  height: auto;
+}
+
+.PrimerBloque2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.DescripcionTexto {
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+.DescripcionTexto h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: whitesmoke;
+  font-weight: 800;
+}
+
+.DescripcionTexto p {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.DescripcionTexto span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: whitesmoke;
+  margin-bottom: 50px;
+}
+
+.DescripcionTexto div {
+  color: whitesmoke;
+}
+
+.coloresdisponibles div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 150px;
+}
+
+.textocolores {
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.tallesdisponibles div {
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.tallesdisponibles p {
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 30px;
+  word-spacing: 40px;
+}
+
+/** SEGUNDA CAJA */
+.caja2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  height: auto;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.SegundoBloque1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  width: 50%;
+}
+
+.titulodebloque2 {
+  font-weight: 800;
+  font-size: 50px;
+  color: whitesmoke;
+  margin-top: 30px;
+  margin-left: 278px;
+}
+
+.Carrouselremeras {
+  max-height: 500px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-right: 120px;
+  height: auto;
+}
+
+.SegundoBloque2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+  width: 50%;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.DescripcionTexto2 {
+  color: whitesmoke;
+  font-weight: 700;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.DescripcionTexto2 h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: whitesmoke;
+  font-weight: 800;
+}
+
+.DescripcionTexto2 p {
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.DescripcionTexto2 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: whitesmoke;
+  margin-bottom: 50px;
+}
+
+.DescripcionTexto2 div {
+  color: whitesmoke;
+}
+
+.coloresdisponibles2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 30px;
+}
+
+.coloresdisponibles2 div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 150px;
+}
+
+.textocolores2 {
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.tallesdisponibles2 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 120px;
+}
+
+.tallesdisponibles2 div {
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.tallesdisponibles2 p {
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 30px;
+  word-spacing: 40px;
+}
+
+/**   -------------------------      HEADER    ---------------------------------     **/
+.fondoNavBar {
+  background-color: transparent;
+}
+
+.navbarBetween {
+  width: 70%;
+  font-size: 25px;
+  padding: 70px 50px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 15px 0px;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+/**  --------------------------------------   */
+/*        FOOTER      */
+#footer {
+  width: 100%;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(#3d1626), color-stop(#761d4c), color-stop(#b3217b), to(#f025b2));
+  background-image: linear-gradient(to bottom, #000000, #3d1626, #761d4c, #b3217b, #f025b2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 500;
+  margin-top: 3.5rem;
+}
+
+.textodefooter {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.textotienda {
+  color: #b4a5a5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.redes {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: space-around;
+          flex-direction: space-around;
+}
+
+@media (max-width: 576px) {
+  #body {
+    margin-bottom: 120px;
+    width: auto;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .textodeindex {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .fondo {
+    width: auto;
+  }
+  .caja1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .titulodebloque {
+    font-size: 40px;
+    margin-left: 45px;
+  }
+  .PrimerBloque1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0px;
+    padding: 0;
+    width: auto;
+    height: 800px;
+  }
+  .Carrouselbuzos {
+    width: 100%;
+    margin: 0px 0px;
+    margin: auto;
+    height: auto;
+  }
+  .PrimerBloque2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: columnn;
+            flex-direction: columnn;
+    width: auto;
+    margin-top: 150px;
+  }
+  .DescripcionTexto h1 {
+    font-size: 35px;
+  }
+  .DescripcionTexto p {
+    font-size: 15px;
+  }
+  .textocolores {
+    font-size: 18px;
+  }
+  .coloresdisponibles img {
+    width: 20px;
+    height: 20px;
+  }
+  .tallesdisponibles div {
+    font-size: 18px;
+    margin-left: 0;
+  }
+  .tallesdisponibles p {
+    font-size: 15px;
+    margin-left: 10px;
+    width: 80%;
+  }
+  .caja2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: auto;
+  }
+  .titulodebloque2 {
+    font-size: 40px;
+    margin-left: 45px;
+  }
+  .SegundoBloque1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0px;
+    padding: 0;
+    width: auto;
+    height: 800px;
+  }
+  .Carrouselremeras {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+  .SegundoBloque2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: columnn;
+            flex-direction: columnn;
+    width: auto;
+    margin: 0;
+    margin-top: 150px;
+  }
+  .DescripcionTexto2 {
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  .DescripcionTexto2 h1 {
+    font-size: 35px;
+  }
+  .DescripcionTexto2 p {
+    font-size: 15px;
+  }
+  .textocolores2 {
+    font-size: 18px;
+  }
+  .coloresdisponibles2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 40px;
+  }
+  .coloresdisponibles2 img {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+  }
+  .tallesdisponibles2 {
+    margin: 0;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 40px;
+  }
+  .tallesdisponibles2 div {
+    font-size: 18px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .tallesdisponibles2 p {
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100%;
+  }
+  #textotienda {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+    -ms-grid-column: 1;
+    grid-column: 1fr;
+  }
+  .caja1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+  .titulodebloque {
+    font-size: 40px;
+    margin-left: 45px;
+  }
+  .PrimerBloque1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0px;
+    padding: 0;
+    width: auto;
+    height: 800px;
+    margin-bottom: 200px;
+  }
+  .Carrouselbuzos {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
+  .PrimerBloque2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: columnn;
+            flex-direction: columnn;
+    width: auto;
+  }
+  .DescripcionTexto h1 {
+    font-size: 35px;
+  }
+  .DescripcionTexto p {
+    font-size: 15px;
+  }
+  .textocolores {
+    font-size: 18px;
+  }
+  .coloresdisponibles img {
+    width: 20px;
+    height: 20px;
+  }
+  .tallesdisponibles div {
+    font-size: 18px;
+    margin-left: 0;
+  }
+  .tallesdisponibles p {
+    font-size: 15px;
+    margin-left: 10px;
+    width: 80%;
+  }
+  .carousel-item div {
+    width: 90%;
+  }
+  .caja2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: auto;
+  }
+  .titulodebloque2 {
+    font-size: 40px;
+    margin-left: 45px;
+  }
+  .SegundoBloque1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0px;
+    padding: 0;
+    width: auto;
+    height: 800px;
+    margin-bottom: 300px;
+  }
+  .Carrouselremeras {
+    width: 100%;
+    margin: auto;
+  }
+  .SegundoBloque2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: columnn;
+            flex-direction: columnn;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .DescripcionTexto2 {
+    margin-left: 40px;
+    margin-top: 40px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .DescripcionTexto2 h1 {
+    font-size: 35px;
+  }
+  .DescripcionTexto2 p {
+    font-size: 15px;
+  }
+  .textocolores2 {
+    font-size: 18px;
+  }
+  .coloresdisponibles2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 40px;
+  }
+  .coloresdisponibles2 img {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+  }
+  .tallesdisponibles2 {
+    margin: 0;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 40px;
+  }
+  .tallesdisponibles2 div {
+    font-size: 18px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .tallesdisponibles2 p {
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .nosotro {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+  }
+  .carousel-item div {
+    width: auto;
+  }
+  .caja1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    width: auto;
+  }
+  .titulodebloque {
+    font-size: 40px;
+    margin-left: 45px;
+  }
+  .PrimerBloque1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0px;
+    padding: 0;
+    width: auto;
+    height: 800px;
+    margin-bottom: 400px;
+  }
+  .Carrouselbuzos {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
+  .PrimerBloque2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: columnn;
+            flex-direction: columnn;
+    width: auto;
+  }
+  .DescripcionTexto h1 {
+    font-size: 35px;
+  }
+  .DescripcionTexto p {
+    font-size: 15px;
+  }
+  .textocolores {
+    font-size: 18px;
+  }
+  .coloresdisponibles img {
+    width: 20px;
+    height: 20px;
+  }
+  .tallesdisponibles div {
+    font-size: 18px;
+    margin-left: 0;
+  }
+  .tallesdisponibles p {
+    font-size: 15px;
+    margin-left: 10px;
+    width: 80%;
+  }
+  .carousel-item div {
+    width: 100%;
+  }
+  .caja2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: auto;
+  }
+  .titulodebloque2 {
+    font-size: 40px;
+    margin-left: 45px;
+  }
+  .SegundoBloque1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 0px;
+    padding: 0;
+    width: auto;
+    height: 800px;
+    margin-bottom: 500px;
+  }
+  .Carrouselremeras {
+    width: 100%;
+    margin: auto;
+  }
+  .SegundoBloque2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .DescripcionTexto2 {
+    margin-left: 40px;
+    margin-top: 40px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .DescripcionTexto2 h1 {
+    font-size: 35px;
+  }
+  .DescripcionTexto2 p {
+    font-size: 15px;
+  }
+  .textocolores2 {
+    font-size: 18px;
+  }
+  .coloresdisponibles2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 40px;
+  }
+  .coloresdisponibles2 img {
+    width: 20px;
+    height: 20px;
+    margin-left: 0px;
+  }
+  .tallesdisponibles2 {
+    margin: 0;
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-left: 40px;
+  }
+  .tallesdisponibles2 div {
+    font-size: 18px;
+    margin-left: 0;
+    width: 100%;
+  }
+  .tallesdisponibles2 p {
+    font-size: 15px;
+    margin-left: 10px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 150px;
+    width: 90%;
+  }
+  .Carrouselbuzos {
+    width: auto;
+  }
+  .titulodebloque {
+    margin-left: 0;
+  }
+  .tallesdisponibles {
+    font-size: 40px;
+  }
+  .titulodebloque2 {
+    margin: 0;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    margin-right: 150px;
+  }
+  .Carrouselremeras {
+    width: auto;
+  }
+  .coloresdisponibles2 {
+    margin: 0;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .tallesdisponibles2 {
+    margin: 0;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.contenido {
+  height: 100vh;
+  margin-bottom: 50px;
+  margin-left: 300px;
+}
+
+/**   -------------------------      HEADER    ---------------------------------     **/
+.fondoNavBar {
+  background-color: transparent;
+}
+
+.navbarBetween {
+  width: 70%;
+  font-size: 25px;
+  padding: 70px 50px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item {
+  color: whitesmoke;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 15px 0px;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+/**  --------------------------------------   */
+/** ------------------------ FLEX DE LOS PRODUCTOS ---------------- */
+/** BUZOS Y REMERAS */
+.contenidodetienda {
+  border: 1px solid red;
+}
+
+.productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.productos .bloque {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.productos .contenidodeBloque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: whitesmoke;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.productos .TerceraFoto {
+  height: 592px;
+  width: auto;
+}
+
+.productos2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.productos2 .bloque {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.productos2 .contenidodeBloque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: whitesmoke;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.productos2 .SextaFoto {
+  height: 592px;
+  width: auto;
+}
+
+.comprar {
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ProductoTransform {
+  border-radius: 3%;
+}
+
+.ProductoTransform:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.modal-title {
+  color: black;
+}
+
+.modal-body {
+  color: #0c0c0c;
+}
+
+/**     ---------------------------------------------------------------    */
+/**  --------------------        CONTENIDO     ------------------------ */
+.titulo {
+  font-weight: 800;
+  color: whitesmoke;
+  margin-left: 30px;
+  padding: 40px 0px;
+}
+
+.tituloderemeras {
+  font-weight: 800;
+  color: whitesmoke;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.espacioderedes {
+  margin-right: 30px;
+}
+
+.newsletter {
+  margin-top: 100px;
+  margin-bottom: 300px;
+  position: fixed;
+}
+
+/** --------------------------------------------------------------------- */
+/** ---------------------         FOOTER           -------------------  */
+#footer {
+  width: 100%;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(#3d1626), color-stop(#761d4c), color-stop(#b3217b), to(#f025b2));
+  background-image: linear-gradient(to bottom, #000000, #3d1626, #761d4c, #b3217b, #f025b2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 500;
+  margin-top: 3.5rem;
+}
+
+.textodefooter {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.textotienda {
+  color: #b4a5a5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.redes {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: space-around;
+          flex-direction: space-around;
+}
+
+/** ------------------------------------------------------ */
+@media (max-width: 576px) {
+  #body {
+    margin-bottom: 120px;
+    width: auto;
+  }
+  .ProductoTransform:hover {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  #contenidodetienda {
+    overflow-x: hidden;
+  }
+  .ProductoTransform {
+    padding: 0 50px;
+    max-height: 592px;
+    max-width: 515px;
+    margin-top: 50px;
+  }
+  .textotienda {
+    font-size: 20px !important;
+  }
+  .productos2 {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #body {
+    width: auto;
+  }
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+  }
+  .ProductoTransform:hover {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .productos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .comprar {
+    margin-bottom: 20px;
+  }
+  .titulo {
+    margin-top: 250px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  #body {
+    width: auto;
+  }
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+  }
+  .ProductoTransform:hover {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .productos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .productos2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .comprar {
+    margin-bottom: 20px;
+  }
+  .titulo {
+    margin-top: 250px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 150px;
+    width: 90%;
+  }
+  .ProductoTransform {
+    max-height: 400px;
+    width: auto;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .textodeindex {
+    margin-bottom: 50px;
+  }
+  .contenido {
+    margin-bottom: 150px;
+    width: 90%;
+  }
+  .ProductoTransform {
+    max-height: 450px;
+    width: auto;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+/**   -------------------------      HEADER    ---------------------------------     **/
+.fondoNavBar {
+  background-color: transparent;
+}
+
+.navbarBetween {
+  width: 70%;
+  font-size: 25px;
+  padding: 70px 50px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 15px 0px;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+/**  --------------------------------------   */
+/**     ---------------------------------------------------------------    */
+/**  --------------------        CONTENIDO     ------------------------ */
+.nosotro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.mapa {
+  margin-top: 100px;
+  width: 700px;
+  height: 500px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.fonditonuevo {
+  width: 100%;
+  background-image: url(../imagenes/fondobuzo2.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bloquenosotros {
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  height: auto;
+  width: 1000px;
+  padding-bottom: 100px;
+}
+
+.textodenosotros {
+  color: whitesmoke;
+  font-size: 40px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 50px;
+  border-top: 5px white solid;
+  border-bottom: 5px white solid;
+  padding: 30px;
+}
+
+.parrafodenosotros, .textoproximamente {
+  color: whitesmoke;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 90px;
+  height: auto;
+  text-align: center;
+}
+
+.proximamente {
+  font-size: 50px;
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.textoproximamente {
+  margin: 30px 40px;
+}
+
+.espacioderedes {
+  margin-right: 30px;
+}
+
+.newsletter {
+  margin-top: 100px;
+  margin-bottom: 300px;
+  position: fixed;
+}
+
+/** --------------------------------------------------------------------- */
+/** ---------------------         FOOTER           -------------------  */
+#footer {
+  width: 100%;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(#3d1626), color-stop(#761d4c), color-stop(#b3217b), to(#f025b2));
+  background-image: linear-gradient(to bottom, #000000, #3d1626, #761d4c, #b3217b, #f025b2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 500;
+  margin-top: 3.5rem;
+}
+
+.textodefooter {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.textotienda {
+  color: #b4a5a5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.redes {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: space-around;
+          flex-direction: space-around;
+}
+
+/** ------------------------------------------------------ */
+@media (max-width: 576px) {
+  #body {
+    margin-bottom: 120px;
+    width: auto;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .nosotro {
+    width: auto;
+    overflow-x: hidden;
+  }
+  .mapa {
+    height: 300px;
+    width: 400px;
+  }
+  .proximamente {
+    font-size: 50px;
+  }
+  .textoproximamente {
+    font-size: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px 30px;
+  }
+  .parrafodenosotros, .textoproximamente {
+    margin: 50px 20px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+    -ms-grid-column: 1;
+    grid-column: 1fr;
+  }
+  .nosotro {
+    width: 100%;
+  }
+  .mapa {
+    height: 450px;
+    width: 500px;
+  }
+  .textoproximamente {
+    font-size: 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px 30px;
+  }
+  .parrafodenosotros, .textoproximamente {
+    margin: 50px 20px;
+  }
+  .proximamente {
+    font-size: 50px;
+  }
+  .proximamenteTexto {
+    font-size: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+  }
+  .nosotro {
+    width: 100%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 150px;
+    width: 90%;
+  }
+  .nosotro {
+    width: 100%;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.contenido {
+  height: 100vh;
+  margin-bottom: 50px;
+  margin-left: 300px;
+}
+
+/**   -------------------------      HEADER    ---------------------------------     **/
+.fondoNavBar {
+  background-color: transparent;
+}
+
+.navbarBetween {
+  width: 70%;
+  font-size: 25px;
+  padding: 70px 50px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 15px 0px;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+/**  --------------------------------------   */
+/** ---------------      NOSOTROS.HTML        ------------------ */
+.botoncito {
+  border-radius: 5px;
+  padding: 10px 7px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #333;
+  margin: 5px;
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+.formularioNosotros input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.formularioNosotros textarea {
+  background-color: #fbfbfb;
+  width: 95%;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ab4493;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+.formularioNosotros label {
+  display: block;
+  float: center;
+}
+
+.formularioNosotros button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #ab4493;
+  border-color: #ab4493;
+  border-style: solid;
+  border-radius: 10px;
+  width: 90%;
+  cursor: pointer;
+}
+
+.formularioNosotros button p {
+  color: #fff;
+}
+
+.formularioNosotros span {
+  color: #ab4493;
+}
+
+.formularioNosotros .aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+.formularioNosotros h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #ab4493;
+}
+
+.formularioNosotros h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+.formularioNosotros p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formularioNosotros .formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formularioNosotros .formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+  width: 100%;
+}
+
+/** ---------------------         FOOTER           -------------------  */
+#footer {
+  width: 100%;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(#3d1626), color-stop(#761d4c), color-stop(#b3217b), to(#f025b2));
+  background-image: linear-gradient(to bottom, #000000, #3d1626, #761d4c, #b3217b, #f025b2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 500;
+  margin-top: 3.5rem;
+}
+
+.textodefooter {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.textotienda {
+  color: #b4a5a5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.redes {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: space-around;
+          flex-direction: space-around;
+}
+
+/** ------------------------------------------------------ */
+@media (max-width: 576px) {
+  #body {
+    margin-bottom: 120px;
+    width: auto;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  #contactobody {
+    width: 100%;
+  }
+  #footer {
+    width: 100%;
+  }
+  .contact_form {
+    width: auto;
+  }
+  .formularioNosotros input {
+    width: 90%;
+  }
+  .formularioNosotros textarea {
+    width: 90%;
+  }
+  .formularioNosotros button {
+    width: 90%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+    -ms-grid-column: 1;
+    grid-column: 1fr;
+  }
+  #contactobody {
+    width: 100%;
+  }
+  .formularioNosotros input {
+    width: 90%;
+  }
+  .formularioNosotros textarea {
+    width: 90%;
+  }
+  .formularioNosotros button {
+    width: 90%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+  }
+  #contactobody {
+    width: 100%;
+  }
+  .formularioNosotros input {
+    width: 90%;
+  }
+  .formularioNosotros textarea {
+    width: 90%;
+  }
+  .formularioNosotros button {
+    width: 90%;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 150px;
+    width: 90%;
+  }
+  #contactobody {
+    width: 100%;
+  }
+  .formularioNosotros input {
+    width: 90%;
+  }
+  .formularioNosotros textarea {
+    width: 90%;
+  }
+  .formularioNosotros button {
+    width: 90%;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.contenido {
+  height: 100vh;
+  margin-bottom: 50px;
+  margin-left: 300px;
+}
+
+/**   -------------------------      HEADER    ---------------------------------     **/
+.fondoNavBar {
+  background-color: transparent;
+}
+
+.navbarBetween {
+  width: 70%;
+  font-size: 25px;
+  padding: 70px 50px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 15px 0px;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+/**  --------------------------------------   */
+/** ------------------------ FLEX DE LOS PRODUCTOS ---------------- */
+/** BUZOS Y REMERAS */
+.contenidodetienda {
+  border: 1px solid red;
+}
+
+.productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.productos .bloque {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.productos .contenidodeBloque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: whitesmoke;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.productos .TerceraFoto {
+  height: 592px;
+  width: auto;
+}
+
+.productos2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.productos2 .bloque {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.productos2 .contenidodeBloque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: whitesmoke;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.productos2 .SextaFoto {
+  height: 592px;
+  width: auto;
+}
+
+.comprar {
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ProductoTransform {
+  border-radius: 3%;
+}
+
+.ProductoTransform:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+/**     ---------------------------------------------------------------    */
+/**  --------------------        CONTENIDO     ------------------------ */
+.titulo {
+  font-weight: 800;
+  color: whitesmoke;
+  margin-left: 30px;
+  padding: 40px 0px;
+}
+
+.tituloderemeras {
+  font-weight: 800;
+  color: whitesmoke;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.espacioderedes {
+  margin-right: 30px;
+}
+
+.newsletter {
+  margin-top: 100px;
+  margin-bottom: 300px;
+  position: fixed;
+}
+
+/** --------------------------------------------------------------------- */
+/** ---------------------         FOOTER           -------------------  */
+#footer {
+  width: 100%;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(#3d1626), color-stop(#761d4c), color-stop(#b3217b), to(#f025b2));
+  background-image: linear-gradient(to bottom, #000000, #3d1626, #761d4c, #b3217b, #f025b2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 500;
+  margin-top: 3.5rem;
+}
+
+.textodefooter {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.textotienda {
+  color: #b4a5a5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.redes {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: space-around;
+          flex-direction: space-around;
+}
+
+/** ------------------------------------------------------ */
+@media (max-width: 576px) {
+  #body {
+    margin-bottom: 120px;
+    width: auto;
+  }
+  .ProductoTransform:hover {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  #contenidodetienda {
+    overflow-x: hidden;
+  }
+  .ProductoTransform {
+    padding: 0 50px;
+    max-height: 592px;
+    max-width: 515px;
+    margin-top: 50px;
+  }
+  .textotienda {
+    font-size: 20px !important;
+  }
+  .productos2 {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #body {
+    width: auto;
+  }
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+  }
+  .ProductoTransform:hover {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .productos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .comprar {
+    margin-bottom: 20px;
+  }
+  .titulo {
+    margin-top: 250px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  #body {
+    width: auto;
+  }
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+  }
+  .ProductoTransform:hover {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .productos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .productos2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .comprar {
+    margin-bottom: 20px;
+  }
+  .titulo {
+    margin-top: 250px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 150px;
+    width: 90%;
+  }
+  .ProductoTransform {
+    max-height: 400px;
+    width: auto;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .textodeindex {
+    margin-bottom: 50px;
+  }
+  .contenido {
+    margin-bottom: 150px;
+    width: 90%;
+  }
+  .ProductoTransform {
+    max-height: 450px;
+    width: auto;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.contenido {
+  height: 100vh;
+  margin-bottom: 50px;
+  margin-left: 300px;
+}
+
+/**   -------------------------      HEADER    ---------------------------------     **/
+.fondoNavBar {
+  background-color: transparent;
+}
+
+.navbarBetween {
+  width: 70%;
+  font-size: 25px;
+  padding: 70px 50px;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  padding: 15px 0px;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+/**  --------------------------------------   */
+/** ------------------------ FLEX DE LOS PRODUCTOS ---------------- */
+/** BUZOS Y REMERAS */
+.contenidodetienda {
+  border: 1px solid red;
+}
+
+.productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.productos .bloque {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.productos .contenidodeBloque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: whitesmoke;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.productos .TerceraFoto {
+  height: 592px;
+  width: auto;
+}
+
+.productos2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 150px;
+}
+
+.productos2 .bloque {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.productos2 .contenidodeBloque {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: whitesmoke;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.productos2 .SextaFoto {
+  height: 592px;
+  width: auto;
+}
+
+.comprar {
+  margin-top: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ProductoTransform {
+  border-radius: 3%;
+}
+
+.ProductoTransform:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+/**     ---------------------------------------------------------------    */
+/**  --------------------        CONTENIDO     ------------------------ */
+.titulo {
+  font-weight: 800;
+  color: whitesmoke;
+  margin-left: 30px;
+  padding: 40px 0px;
+}
+
+.tituloderemeras {
+  font-weight: 800;
+  color: whitesmoke;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.espacioderedes {
+  margin-right: 30px;
+}
+
+.newsletter {
+  margin-top: 100px;
+  margin-bottom: 300px;
+  position: fixed;
+}
+
+/** --------------------------------------------------------------------- */
+/** ---------------------         FOOTER           -------------------  */
+#footer {
+  width: 100%;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(#3d1626), color-stop(#761d4c), color-stop(#b3217b), to(#f025b2));
+  background-image: linear-gradient(to bottom, #000000, #3d1626, #761d4c, #b3217b, #f025b2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  z-index: 500;
+  margin-top: 3.5rem;
+}
+
+.textodefooter {
+  margin: auto;
+  margin-top: 50px;
+}
+
+.textotienda {
+  color: #b4a5a5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.redes {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: space-around;
+          flex-direction: space-around;
+}
+
+/** ------------------------------------------------------ */
+@media (max-width: 576px) {
+  #body {
+    margin-bottom: 120px;
+    width: auto;
+  }
+  .ProductoTransform:hover {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  #contenidodetienda {
+    overflow-x: hidden;
+  }
+  .ProductoTransform {
+    padding: 0 50px;
+    max-height: 592px;
+    max-width: 515px;
+    margin-top: 50px;
+  }
+  .textotienda {
+    font-size: 20px !important;
+  }
+  .productos2 {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #body {
+    width: auto;
+  }
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+  }
+  .ProductoTransform:hover {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .productos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .comprar {
+    margin-bottom: 20px;
+  }
+  .titulo {
+    margin-top: 250px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  #body {
+    width: auto;
+  }
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 120px;
+    width: 90%;
+  }
+  .ProductoTransform:hover {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  .productos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .productos2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .comprar {
+    margin-bottom: 20px;
+  }
+  .titulo {
+    margin-top: 250px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .textodeindex {
+    margin-bottom: 40px;
+  }
+  .contenido {
+    margin-bottom: 150px;
+    width: 90%;
+  }
+  .ProductoTransform {
+    max-height: 400px;
+    width: auto;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .textodeindex {
+    margin-bottom: 50px;
+  }
+  .contenido {
+    margin-bottom: 150px;
+    width: 90%;
+  }
+  .ProductoTransform {
+    max-height: 450px;
+    width: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */

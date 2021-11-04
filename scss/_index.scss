@@ -1,0 +1,995 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+@mixin caja {
+	display: $flex;
+	background-color:$black;
+	height: auto;
+	padding-bottom: 50px;
+	width: $width100;
+}
+@mixin bloque {
+	display: $flex;
+	flex-direction: column;
+	gap: 50px;
+	width: 50%;
+}
+
+@mixin titulobloque {
+	font-weight: 800;
+	font-size: 50px;
+	color: $white;
+}
+
+@mixin carrousel {
+	max-height: 500px;
+	width: 50%;
+	display: $flex;
+	align-self: $center;
+	margin-right: 120px;
+	height: auto;
+}
+
+#body {
+	font-family: $montserrat;
+	font-weight: 700;
+	background-color: black; 
+	height: $vh100;
+	width: $width100;
+}
+
+
+.contenido {
+	height: $vh100;
+	margin-bottom: 50px;
+	margin-left: 300px;
+	}
+
+.textodeindex {
+	font-family: $montserrat;
+	font-weight: 800;
+	color: $white;
+	margin-left: 70px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+/**        INDEX          */
+
+
+
+.fondo {
+	width: $width100;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.3),transparent), url(imagenes/fondobuzo2.jpg) ;
+	background-size: cover;
+	background-position: $center;
+	position: relative;
+}
+.fonditonuevo {
+	width: $width100;
+	background-image: url(../imagenes/fondobuzo2.jpg);
+	background-repeat: no-repeat;
+	background-position: $center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contenedor {
+	display: $flex;
+	flex-direction: column;
+	gap: 300px;
+	background-color: transparent;
+
+}
+
+
+
+
+/** PRIMERA CAJA */
+
+
+
+.caja1 {
+	@include caja;
+
+}
+
+.PrimerBloque1 {
+	@include bloque;
+	margin-left: 20px;
+	height: auto;
+	
+}
+
+.titulodebloque {
+	@include titulobloque;
+	margin-left: 200px;
+	margin-top: 30px;
+}
+
+
+.Carrouselbuzos {
+	@include carrousel;
+}
+
+
+
+.PrimerBloque2 {
+	@include bloque;
+	margin-top: 40px;
+	margin-left: 40px;
+
+}
+
+.DescripcionTexto {
+	color: $white;
+	font-weight: 700;
+
+	h1 {
+		font-size: 40px;
+		margin-bottom: 50px;
+		color: $white;
+		font-weight: 800;
+}
+	p {
+		font-size: 15px;
+		margin-top: 30px;
+		margin-bottom: 40px;
+} 
+	span {
+		display: $flex;
+		flex-direction: column;
+		color: $white;
+		margin-bottom: 50px;
+}
+  
+	div{
+		color: $white;
+}
+}
+
+
+.coloresdisponibles { 
+	div{
+		display: $flex;
+		justify-content: space-around;
+		width: 150px;
+}
+}
+
+
+.textocolores {
+	color: $white;
+	font-size: 25px;
+	font-weight: 800;
+}
+
+
+.tallesdisponibles { 
+	div{
+		color: $white;
+		font-weight: 800;
+		font-size: 25px;
+		margin-bottom: 25px;
+		margin-top: 50px;
+} 
+	p{
+		color: $white;
+		font-weight: 800;
+		font-size: 30px;
+		word-spacing: 40px;
+}
+}
+
+/** SEGUNDA CAJA */
+
+
+.caja2 {
+	@include caja;
+
+}
+
+.SegundoBloque1 {
+	@include bloque;
+
+	
+}
+
+.titulodebloque2 {
+	@include titulobloque;
+	margin-top: 30px;
+	margin-left: 278px;
+}
+
+.Carrouselremeras {
+	@include carrousel;	
+}
+
+
+
+
+
+
+.SegundoBloque2 {
+	@include bloque;
+	margin-top: 40px;
+	margin-left: 40px;
+
+
+
+}
+
+.DescripcionTexto2 {
+	color: $white;
+	font-weight: 700;
+	align-self: flex-end;
+
+	h1 {
+		font-size: 40px;
+		margin-bottom: 50px;
+		color: $white;
+		font-weight: 800;
+
+}
+	p {
+		font-size: 15px;
+		margin-top: 30px;
+		margin-bottom: 40px;
+}
+	span {
+		display: $flex;
+		flex-direction: column;
+		color: $white;
+		margin-bottom: 50px;
+
+}
+	div{
+		color: $white;
+
+}
+}
+
+.coloresdisponibles2 {
+	align-self: $center;
+	margin-left: 30px;
+
+	div{
+		display: $flex;
+		justify-content: space-around;
+		width: 150px;
+}
+}
+
+.textocolores2 {
+	color: $white;
+	font-size: 25px;
+	font-weight: 800;
+}
+
+.tallesdisponibles2 {
+	align-self: $center;
+	margin-left: 120px;
+
+	div{
+		color: $white;
+		font-weight: 800;
+		font-size: 25px;
+		margin-bottom: 25px;
+		margin-top: 50px;
+}
+	p{
+		color: $white;
+		font-weight: 800;
+		font-size: 30px;
+		word-spacing: 40px;
+}
+}
+
+/**   -------------------------      HEADER    ---------------------------------     **/
+.fondoNavBar {
+	background-color: transparent ;
+}
+
+.navbarBetween {
+	width: 70%;
+	font-size: 25px;
+	padding: 70px 50px;
+}
+
+.dropdown-menu {
+	background-color: transparent;
+	
+	.dropdown-item {
+		color:white;
+		font-size:22px;
+		font-weight: 800;
+		padding: 15px 0px;
+	}
+}
+
+.dropdown-item:hover {
+	background-color: transparent;
+}
+
+/**  --------------------------------------   */
+
+
+
+/*        FOOTER      */
+
+
+#footer {
+	width: $width100;
+	height: 200px;
+	background-image: linear-gradient(to bottom, #000000, #3d1626, #761d4c, #b3217b, #f025b2);
+	display: $flex;
+	flex-direction: column;
+	justify-content: $center;
+	align-content: $center;
+	z-index: 500;
+	margin-top: 3.5rem;
+	
+}
+
+.textodefooter {
+	
+	margin: auto;
+	margin-top: 50px;
+}
+
+.textotienda {
+	color: #b4a5a5;
+	font-family: $montserrat;
+	font-size: 30px;
+	font-weight: 700;
+
+
+
+}
+
+
+.redes {
+	margin: auto;
+	display: $flex;
+	flex-direction: space-around;
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+	
+
+	#body {
+		margin-bottom: 120px;
+		width: auto;
+		grid-column: 1;
+	}
+	.textodeindex {
+		margin-bottom: 30px;
+		font-size: 30px;
+		}
+	.fondo {
+		width: auto;
+	}
+	
+
+
+	.caja1 {
+		flex-direction: column;
+		height: auto;
+	}
+	
+
+
+	.titulodebloque {
+		font-size: 40px;
+		margin-left: 45px;
+	}
+
+	.PrimerBloque1 {
+		display: $flex;
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 0;
+		width: auto;
+		height: 800px;
+	}
+	.Carrouselbuzos {
+		width: $width100;
+		margin: 0px 0px;
+		margin: auto;
+		height: auto;
+
+	}
+
+	.PrimerBloque2 {
+		display: $flex;
+		flex-direction: columnn;
+		width: auto;
+		margin-top:150px;
+	}
+
+	.DescripcionTexto { 
+		h1 {
+			font-size: 35px;
+		}
+		p {
+			font-size: 15px;
+		}
+	}
+
+	.textocolores {
+		font-size: 18px;
+	}
+
+
+	.coloresdisponibles { 
+		img {
+			width: 20px;
+			height: 20px;
+		}
+	}
+
+	.tallesdisponibles {
+		div {
+			font-size: 18px;
+			margin-left: 0;
+		}
+	
+		p {
+			font-size: 15px;
+			margin-left: 10px;
+			width: 80%;
+		}
+	}
+
+
+
+
+
+	.caja2 {
+		flex-direction: column-reverse;
+		height: auto;
+	}
+
+
+
+	.titulodebloque2 {
+		font-size: 40px;
+		margin-left: 45px;
+	}
+
+	.SegundoBloque1 {
+		display: $flex;
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 0;
+		width: auto;
+		height: 800px;
+	}
+	.Carrouselremeras {
+		width: $width100;
+		margin: auto;
+		height: auto;
+		
+
+	}
+	
+
+
+	.SegundoBloque2 {
+		display: $flex;
+		flex-direction: columnn;
+		width: auto;
+		margin: 0;
+		margin-top:150px;
+	}
+
+
+	.DescripcionTexto2 {
+		margin-left: 40px;
+		margin-top: 40px;
+	}
+
+	.DescripcionTexto2 {
+		h1 {
+			font-size: 35px;
+		}
+
+		p {
+			font-size: 15px;
+	
+		}
+	}
+	.textocolores2 {
+		font-size: 18px;
+
+
+	}
+
+	.coloresdisponibles2 {
+		display: $flex;
+		flex-direction: column;
+		align-self: flex-start;
+		margin-left: 40px;
+	
+		img {
+			width: 20px;
+			height: 20px;
+			margin-left: 0px;
+		
+		}
+	}
+
+	.tallesdisponibles2 {
+		margin: 0;
+		width: auto;
+		display: $flex;
+		flex-direction: column;
+		align-self: flex-start;
+		margin-left: 40px;
+	
+		div {
+			font-size: 18px;
+			margin-left: 0;
+			width: $width100;
+		}
+	 
+		p {
+			font-size: 15px;
+			margin-left: 10px;
+			width: $width100;
+		}
+	}
+
+	#textotienda {
+		font-size:10px
+	}
+	
+	}
+
+@media (min-width: 577px) and (max-width: 768px) {
+	.textodeindex {
+		margin-bottom: 40px;
+
+	}
+	.contenido {
+		margin-bottom: 120px;
+		width: 90%;
+		grid-column: 1fr;
+	}
+
+
+
+	.caja1 {
+		flex-direction: column;
+		height: auto;
+		width: auto;
+
+	}
+
+
+
+	.titulodebloque {
+		font-size: 40px;
+		margin-left: 45px;
+	}
+
+	.PrimerBloque1 {
+		display: $flex;
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 0;
+		width: auto;
+		height: 800px;
+		margin-bottom: 200px;
+	}
+	.Carrouselbuzos {
+		width: $width100;
+		margin: auto;
+		height: 100%;
+
+	}
+
+	.PrimerBloque2 {
+		display: $flex;
+		flex-direction: columnn;
+		width: auto;
+	}
+
+	.DescripcionTexto { 
+		h1 {
+			font-size: 35px;
+		}
+
+		p {
+			font-size: 15px;
+		}
+	}
+
+	.textocolores {
+		font-size: 18px;
+	}
+
+
+	.coloresdisponibles {
+		img {
+			width: 20px;
+			height: 20px;
+		
+		}
+	}
+
+	.tallesdisponibles { 
+		div {
+			font-size: 18px;
+			margin-left: 0;
+		}
+	
+		p {
+			font-size: 15px;
+			margin-left: 10px;
+			width: 80%;
+		}
+	}
+
+
+
+	.carousel-item {
+		div {
+			width: 90%;
+		}
+	}
+
+
+	.caja2 {
+		flex-direction: column-reverse;
+		height: auto;
+	}
+
+
+
+	.titulodebloque2 {
+		font-size: 40px;
+		margin-left: 45px;
+	}
+
+	.SegundoBloque1 {
+		display: $flex;
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 0;
+		width: auto;
+		height: 800px;
+		margin-bottom: 300px;
+	}
+	.Carrouselremeras {
+		width: $width100;
+		margin: auto;
+
+	}
+
+
+
+	.SegundoBloque2 {
+		display: $flex;
+		flex-direction: columnn;
+		width: $width100;
+		margin: 0;
+		padding: 0;
+
+		
+
+	}
+
+
+	.DescripcionTexto2 {
+		margin-left: 40px;
+		margin-top: 40px;
+		align-self: flex-start;
+
+	
+		h1 {
+			font-size: 35px;
+
+		}
+	 
+		p {
+			font-size: 15px;
+		}
+	}
+
+	.textocolores2 {
+		font-size: 18px;
+
+
+	}
+
+	.coloresdisponibles2 {
+		display: $flex;
+		flex-direction: column;
+		align-self: flex-start;
+		margin-left: 40px;
+	}
+	.coloresdisponibles2 {
+		img {
+			width: 20px;
+			height: 20px;
+			margin-left: 0px;
+		}
+	}
+
+	.tallesdisponibles2 {
+		margin: 0;
+		width: auto;
+		display: $flex;
+		flex-direction: column;
+		align-self: flex-start;
+		margin-left: 40px;
+	
+		div {
+			font-size: 18px;
+			margin-left: 0;
+			width: $width100;
+		}
+	
+		p {
+			font-size: 15px;
+			margin-left: 10px;
+			width: $width100;
+		}
+	
+	}
+	.nosotro {
+		width: $width100;
+	}
+
+	
+	}
+
+@media (min-width: 769px) and (max-width: 992px) {
+	.textodeindex {
+		margin-bottom: 40px;
+	}
+	.contenido {
+		margin-bottom: 120px;
+		width: 90%;
+	}
+	
+	.carousel-item  {
+		div {
+			width: auto;
+		}
+	}
+	.caja1 {
+		flex-direction: column;
+		height: auto;
+		width: auto;
+
+	}
+
+
+
+	.titulodebloque {
+		font-size: 40px;
+		margin-left: 45px;
+	}
+
+	.PrimerBloque1 {
+		display: $flex;
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 0;
+		width: auto;
+		height: 800px;
+		margin-bottom: 400px;
+	}
+	.Carrouselbuzos {
+		width: $width100;
+		margin: auto;
+		height: 100%;
+
+	}
+
+	.PrimerBloque2 {
+		display: $flex;
+		flex-direction: columnn;
+		width: auto;
+	}
+
+	.DescripcionTexto { 
+		h1 {
+			font-size: 35px;
+		}
+	
+		p {
+			font-size: 15px;
+		}
+	}
+
+	.textocolores {
+		font-size: 18px;
+	}
+
+
+	.coloresdisponibles { 
+		img {
+			width: 20px;
+			height: 20px;
+		
+		}
+	}
+
+	.tallesdisponibles { 
+		div {
+			font-size: 18px;
+			margin-left: 0;
+		}
+	
+		p {
+			font-size: 15px;
+			margin-left: 10px;
+			width: 80%;
+		}
+	}	
+
+
+
+	.carousel-item {
+		 div {
+			width: $width100;
+		}
+	}
+
+
+	.caja2 {
+		flex-direction: column-reverse;
+		height: auto;
+	}
+
+
+
+	.titulodebloque2 {
+		font-size: 40px;
+		margin-left: 45px;
+	}
+
+	.SegundoBloque1 {
+		display: $flex;
+		flex-direction: column;
+		margin-left: 0px;
+		padding: 0;
+		width: auto;
+		height: 800px;
+		margin-bottom: 500px;
+	}
+	.Carrouselremeras {
+		width: $width100;
+		margin: auto;
+
+	}
+
+
+
+	.SegundoBloque2 {
+		display: flex;
+		flex-direction: column;
+		width: $width100;
+		margin: 0;
+		padding: 0;
+
+		
+
+	}
+
+
+	.DescripcionTexto2 {
+		margin-left: 40px;
+		margin-top: 40px;
+		align-self: flex-start;
+
+	
+		h1 {
+			font-size: 35px;
+
+		}
+	
+		p {
+			font-size: 15px;
+		}
+	}
+
+	.textocolores2 {
+		font-size: 18px;
+
+
+	}
+
+	.coloresdisponibles2 {
+		display: $flex;
+		flex-direction: column;
+		align-self: flex-start;
+		margin-left: 40px;
+	
+		img {
+			width: 20px;
+			height: 20px;
+			margin-left: 0px;
+		
+		}
+	}
+
+	.tallesdisponibles2 {
+		margin: 0;
+		width: auto;
+		display: $flex;
+		flex-direction: column;
+		align-self: flex-start;
+		margin-left: 40px;
+	 
+		div {
+			font-size: 18px;
+			margin-left: 0;
+			width: $width100;
+		}
+	
+		p {
+			font-size: 15px;
+			margin-left: 10px;
+			width: $width100;
+		}
+	}
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+	.textodeindex {
+		margin-bottom: 40px;
+	}
+	.contenido {
+		margin-bottom: 150px;
+		width: 90%;
+	}
+	
+	.Carrouselbuzos {
+		width: auto;
+	}
+	.titulodebloque {
+		margin-left: 0;
+	}
+	.tallesdisponibles {
+		font-size: 40px;
+	}
+	.titulodebloque2 {
+		margin: 0;
+		align-self: flex-end;
+		margin-right: 150px;
+	}
+
+	.Carrouselremeras {
+		width: auto;
+	}
+	.coloresdisponibles2 {
+		margin: 0;
+		align-self: flex-start;
+	}
+	.tallesdisponibles2 {
+		margin: 0;
+		align-self: flex-start;
+	}
+	
+
+
+
+}
